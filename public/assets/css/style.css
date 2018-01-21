@@ -115,7 +115,7 @@ Diaporama
   height: 500px;
   width: 100%;
   margin: 0 auto;
-  background-image: url(imgBlue.jpg);
+  background-image: url(../../assets/images/imgC/imgBlue.jpg);
   background-repeat: no-repeat;
   background-image: cover;
   background-size: cover;
@@ -142,25 +142,25 @@ Diaporama
 }
 
 @-webkit-keyframes diaporama{
-  0%, 5% {background-image: url(imgBlue.jpg);}
-  25%, 30% {background-image: url(imgKill.png);}
-  50%, 55% {background-image: url(imgCentral.jpg);}
-  75%, 80% {background-image: url(imgOne.jpg);}
+  0%, 5% {background-image: url(../../assets/images/imgC/imgBlue.jpg);}
+  25%, 30% {background-image: url(../../assets/images/imgC/imgKill.png);}
+  50%, 55% {background-image: url(../../assets/images/imgC/imgCentral.jpg);}
+  75%, 80% {background-image: url(../../assets/images/imgC/imgOne.jpg);}
 
 }
 
 @-moz-keyframes diaporama{
-  0%, 5% {background-image: url(imgBlue.jpg);}
-  25%, 30% {background-image: url(imgKill.png);}
-  50%, 55% {background-image: url(imgCentral.jpg);}
-  75%, 80% {background-image: url(imgOne.jpg);}
+  0%, 5% {background-image: url(../../assets/images/imgC/imgBlue.jpg);}
+  25%, 30% {background-image: url(../../assets/images/imgC/imgKill.png);}
+  50%, 55% {background-image: url(../../assets/images/imgC/imgCentral.jpg);}
+  75%, 80% {background-image: url(../../assets/images/imgC/imgOne.jpg);}
 }
 
 @keyframes diaporama{
-  0%, 5% {background-image: url(imgBlue.jpg);}
-  25%, 30% {background-image: url(imgKill.png);}
-  50%, 55% {background-image: url(imgCentral.jpg);}
-  75%, 80% {background-image: url(imgOne.jpg);}
+  0%, 5% {background-image: url(../../assets/images/imgC/imgBlue.jpg);}
+  25%, 30% {background-image: url(../../assets/images/imgC/imgKill.png);}
+  50%, 55% {background-image: url(../../assets/images/imgC/imgCentral.jpg);}
+  75%, 80% {background-image: url(../../assets/images/imgC/imgOne.jpg);}
 }
 
 /*-----------------------------------------------------------------------------------
@@ -176,7 +176,7 @@ Block Principal
 }
 
 .block_contenu{
-  width: 470px;
+  width: 475px;
   height: 338px;
   text-align: center;
   color: black;
@@ -217,56 +217,56 @@ background-color: rgba(123, 123, 200, 0.1);
 
 .action{
   text-decoration: none;
-  background-image: url(test.jpg);
+  background-image: url(../../assets/images/globe/test.jpg);
   background-repeat: no-repeat;
   background-image: cover;
   background-size: cover;
 }
 
 .romance{
-  background-image: url(romance.jpg);
+  background-image: url(../../assets/images/globe/romance.jpg);
   background-repeat: no-repeat;
   background-image: cover;
   background-size: cover;
 }
 
 .aventure{
-  background-image: url(aventure.jpg);
+  background-image: url(../../assets/images/globe/aventure.jpg);
   background-repeat: no-repeat;
   background-image: cover;
   background-size: cover;
 }
 
 .policier{
-  background-image: url(policier.jpg);
+  background-image: url(../../assets/images/globe/policier.jpg);
   background-repeat: no-repeat;
   background-image: cover;
   background-size: cover;
 }
 
 .science-fiction{
-  background-image: url(science.jpg);
+  background-image: url(../../assets/images/globe/science.jpg);
   background-repeat: no-repeat;
   background-image: cover;
   background-size: cover;
 }
 
 .fantastique{
-  background-image: url(fantastique.jpg);
+  background-image: url(../../assets/images/globe/fantastique.jpg);
   background-repeat: no-repeat;
   background-image: cover;
   background-size: cover;
 }
 
 .manga_celebre{
-  background-image: url(celebre.jpg);
+  background-image: url(../../assets/images/globe/celebre.jpg);
   background-repeat: no-repeat;
   background-image: cover;
   background-size: cover;
 }
 
 .decouverte{
-  background-image: url(manga.png);
+  background-image: url(../../assets/images/globe/manga.png);
   background-repeat: no-repeat;
   background-image: cover;
   background-size: cover;
