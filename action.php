@@ -36,14 +36,21 @@ include 'request.php';
   <div class="action_titre">
     <h1>Action</h1>
   </div>
+
+
+  <div id="centrage">
   <?php foreach ($action as $pic): ?>
     <div class="integrale">
       <div class="titre"><h4><?php echo $pic["titre"];?></h4></div>
-      <div class="action_img"><img src="<?php echo $pic["image"];?>" alt=""></div>
-      <div class="description"><p class="Pdes"><?php echo $pic["description"];?></p></div>
+      <div class="action_img"><img src="<?php echo $pic["image"];?>" class="rotade" alt=""></div>
+      <div id="scan"><button class="lire" type="button" name="lire">Lire</button></div>
     </div>
   <?php endforeach ?>
+  </div>
+
 </div>
+
+<footer></footer>
 
 </body>
 </html>

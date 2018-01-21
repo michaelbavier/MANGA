@@ -68,6 +68,8 @@ nav div {
 }
 
 .nav_bar li{
+  font-size:xx-large; 
+  text-align: center;
   font-family: 'Joti One', cursive;
   color:white;
 }
@@ -285,7 +287,7 @@ page action
 -------------------------------------------------------------------------------*/
 
 .main_action{
-  position: absolute;
+  position:absolute;
   height: auto;
   width: 100%;
   background-color:#7fb3d5;
@@ -312,11 +314,14 @@ text-shadow: 2px 2px 2px black;
 .titre{
   margin-top: 25px;
   height: 35px;
-  background-color: white;
-  border: 1px #3a3da3 solid;
+  background-color: #154360;
+  border: 1px #5d6d7e solid;
   font-family: 'Joti One', cursive;
   font-size: x-large;
   text-align: center;
+  color: white;
+  border-radius: 25%;
+  margin-bottom: 20px;
 }
 
 .description{
@@ -325,6 +330,7 @@ text-align: center;
 font-family: 'Joti One', cursive;
 display: table;
 background-color: white;
+border: 1px #3a3da3 science-fiction;
 }
 
 .action_img{
@@ -333,16 +339,43 @@ width: 200px;
 margin-bottom: 15px;
 margin-left: auto;
 margin-right: auto;
+border: 1px #154360 solid;
+
 }
 
 .integrale{
-width: 49%;
+width: 421px;
 height: 500px;
 display:inline-block;
-margin-left: 9px;
-background-color:#154360;
-border-radius: 5%;
+margin-left: auto;
+margin-right: auto;
+margin: 20px;
+background-color:#5d6d7e;
+border-radius: 10%;
 margin-top: 15px;
-position: relative;
 overflow: hidden;
+border: 1px #154360 solid;
+}
+
+
+#scan{
+  width: 80px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.lire{
+  width: 80px;
+  font-family: 'Joti One', cursive;
+  background-color: #154360;
+  border:#154360;
+  color: white;
+}
+
+#centrage{
+  position: relative;
+  width: 98%;
+  margin-right: 15px;
+  margin-left: 15px;
+  border: 1px yellow solid;
 }
