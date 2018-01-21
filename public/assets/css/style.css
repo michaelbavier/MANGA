@@ -1,129 +1,348 @@
 *{
   padding: 0px;
   margin: 0px;
-  /*background-color: black;*/
 }
-/*....................................home....................................*/
-.main-container-one{
+
+body{
+  background-color: #154360;
+}
+
+/*--------------------------------------------------------------------------------
+Nav Bar
+----------------------------------------------------------------------------------*/
+.nav_bar{
   height: auto;
   width: 100%;
-  background-color: black;
-  margin-top: 10px;
 }
 
-.title{
-  display: inline-flex;
-  margin-left: auto;
-  margin-right: auto;
-  height: 100px;
+.main-container {
+  display: relative;
+  width: 100%;height: 100%;
 }
 
-.menu-items{
-  display: inline-flex;
-  background-color: black;
-  border-style: solid;
+nav {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #154360;
+  align-items: center;
+}
+
+nav ul {
+  margin-left: 20px;
+}
+
+nav div {
+  margin-right: 20px;
+
+}
+
+.text{
+  height: 20px;
+  width: 200px;
+  border-radius: 5%;
+  border: black;
 }
 
 .form{
-  width: 885px;
-  background-color: black;
-  border-style: solid;
+  width: 900px;
 }
 
 .formulaire{
   float: right;
+  display:inline-flex;
 }
 
-ul{
+.formulaire p{
+  margin-top: 3px;
+  color:white;
+  width: 100px;
+  font-family: 'Joti One', cursive;
+}
+
+.nav_bar ul{
   display: inline-flex;
   justify-content: space-around;
-  width: 900px;
   list-style: none;
 }
 
-li{
-  color: #A20808;
-  text-shadow: 0px 0px 9px #FB7879;
+.nav_bar li{
+  font-family: 'Joti One', cursive;
+  color:white;
 }
 
 a{
   text-decoration: none;
 }
 
-.text{
-  height: 25px;
-  background-color: #FB7879;
-  border: #840F0F;
-}
-
 .go{
-  height: 35px;
-  width: 100px;
-  color:#A20808;
-  text-shadow: 0px 0px 9px #FB7879;
-  background-color: black;
-  border: black;
+  font-family: 'Joti One', cursive;
+  width: 50px;
+  height: 20px;
+  background-color:#5d6d7e;
+  border: #1E3279;
+  color: white;
+  cursor: pointer;
 }
 
+#title{
+  margin-bottom: 5px;
+  color:white;
+  background-color:#7fb3d5;
+  text-shadow: 2px 2px 2px black;
+}
 
-#homes h1{
-  color: #8E0000;
-  text-shadow: 0px 0px 9px #FB7879;
+#title h1{
   text-align: center;
-  font-size: xx-large;
+  font-family: 'Joti One', cursive;
 }
 
-#galerie{
-position: relative;
-height: 360px;
+#title p{
+  text-align: center;
+  font-family: 'Joti One', cursive;
+  margin-bottom: -5px;
 }
 
-#galerie img{
+
+/*--------------------------------------------------------------------------------
+Diaporama
+---------------------------------------------------------------------------------*/
+
+.diaporama{
+  height: 500px;
+  width: 100%;
+  margin: 0 auto;
+  background-image: url(imgBlue.jpg);
+  background-repeat: no-repeat;
+  background-image: cover;
+  background-size: cover;
+  background-position-y: -150px;
+
+
+  -webkit-animation-name: diaporama;
+  -webkit-animation-duration: 15s;
+  -webkit-animation-timing-function:linear;
+  -webkit-animation-iteration-count:infinite;
+  -webkit-animation-direction: normal;
+
+  -moz-animation-name: diaporama;
+  -moz-animation-duration: 15s;
+  -moz-animation-timing-function:linear;
+  -moz-animation-iteration-count:infinite;
+  -moz-animation-direction: normal;
+
+  animation-name: diaporama;
+  animation-duration: 15s;
+  animation-timing-function:linear;
+  animation-iteration-count:infinite;
+  animation-direction: normal;
+}
+
+@-webkit-keyframes diaporama{
+  0%, 5% {background-image: url(imgBlue.jpg);}
+  25%, 30% {background-image: url(imgKill.png);}
+  50%, 55% {background-image: url(imgCentral.jpg);}
+  75%, 80% {background-image: url(imgOne.jpg);}
+
+}
+
+@-moz-keyframes diaporama{
+  0%, 5% {background-image: url(imgBlue.jpg);}
+  25%, 30% {background-image: url(imgKill.png);}
+  50%, 55% {background-image: url(imgCentral.jpg);}
+  75%, 80% {background-image: url(imgOne.jpg);}
+}
+
+@keyframes diaporama{
+  0%, 5% {background-image: url(imgBlue.jpg);}
+  25%, 30% {background-image: url(imgKill.png);}
+  50%, 55% {background-image: url(imgCentral.jpg);}
+  75%, 80% {background-image: url(imgOne.jpg);}
+}
+
+/*-----------------------------------------------------------------------------------
+Block Principal
+-----------------------------------------------------------------------------------------*/
+
+.block_principal{
+  height: auto;
+  width: 100%;
+  display: flex;
+  background-color:#7fb3d5;
+  text-decoration: none;
+}
+
+.block_contenu{
+  width: 470px;
+  height: 338px;
+  text-align: center;
+  color: black;
+  margin: 0px;
+  border-radius: 5%;
+  text-decoration: none;
+}
+
+.block_contenu  a:visited {
+  color: black;
+}
+
+.block_action a:hover{
+background-color: rgba(123, 123, 200, 0.1);
+}
+
+.block{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 160px;
+  width: auto;
+  transition: all .5s ease-in-out;
+  margin: 5px;
+  background-color: black;
+  border-radius: 5%;
+  cursor: pointer;
+}
+
+.block:hover {
+  background-color: rgba(123, 123, 200, 0.1);
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+
+
+.action{
+  text-decoration: none;
+  background-image: url(test.jpg);
+  background-repeat: no-repeat;
+  background-image: cover;
+  background-size: cover;
+}
+
+.romance{
+  background-image: url(romance.jpg);
+  background-repeat: no-repeat;
+  background-image: cover;
+  background-size: cover;
+}
+
+.aventure{
+  background-image: url(aventure.jpg);
+  background-repeat: no-repeat;
+  background-image: cover;
+  background-size: cover;
+}
+
+.policier{
+  background-image: url(policier.jpg);
+  background-repeat: no-repeat;
+  background-image: cover;
+  background-size: cover;
+}
+
+.science-fiction{
+  background-image: url(science.jpg);
+  background-repeat: no-repeat;
+  background-image: cover;
+  background-size: cover;
+}
+
+.fantastique{
+  background-image: url(fantastique.jpg);
+  background-repeat: no-repeat;
+  background-image: cover;
+  background-size: cover;
+}
+
+.manga_celebre{
+  background-image: url(celebre.jpg);
+  background-repeat: no-repeat;
+  background-image: cover;
+  background-size: cover;
+}
+
+.decouverte{
+  background-image: url(manga.png);
+  background-repeat: no-repeat;
+  background-image: cover;
+  background-size: cover;
+}
+
+/*----------------------------------------------------------------------------
+Footer
+------------------------------------------------------------------------------*/
+
+footer{
+  height: 25px;
+  background-color:#154360;
+}
+
+
+/*------------------------------------------------------------------------------
+page action
+-------------------------------------------------------------------------------*/
+
+.main_action{
   position: absolute;
-  display: none;
-}
-
-#galerie .active{
-  display: block;
-  margin-left: 610px;
-}
-
-/*..........................home..............................................*/
-.main-container-two{
+  height: auto;
   width: 100%;
+  background-color:#7fb3d5;
 }
 
-.main-container-two h1{
-  height: 100px;
+.action_titre{
   text-align: center;
-  background-color: black;
-  color: #8E0000;
-  text-shadow: 0px 0px 9px #FB7879;
+  font-family: 'Joti One', cursive;
+  color: white;
 }
 
-#nouveaute{
-  display: flex;
-  justify-content: space-around;
+.action_titre h1{
+background-color:#7fb3d5;
+color: white;
+text-shadow: 2px 2px 2px black;
+}
+
+
+.main_action img{
   height: 300px;
-  width: 100%;
-  text-align: center;
-  background-color: black;
-  color: #8E0000;
+  width: 200px;
 }
 
-.main-container-three h1{
-  height: 100px;
+.titre{
+  margin-top: 25px;
+  height: 35px;
+  background-color: white;
+  border: 1px #3a3da3 solid;
+  font-family: 'Joti One', cursive;
+  font-size: x-large;
   text-align: center;
-  background-color: black;
-  color: #8E0000;
-  text-shadow: 0px 0px 9px #FB7879;
 }
 
-#future_sortie{
-  display: flex;
-  justify-content: space-around;
-  height: 300px;
-  width: 100%;
-  text-align: center;
-  color: #8E0000;
+.description{
+height: 120px;
+text-align: center;
+font-family: 'Joti One', cursive;
+display: table;
+background-color: white;
+}
+
+.action_img{
+height: 300px;
+width: 200px;
+margin-bottom: 15px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.integrale{
+width: 49%;
+height: 500px;
+display:inline-block;
+margin-left: 9px;
+background-color:#154360;
+border-radius: 5%;
+margin-top: 15px;
+position: relative;
+overflow: hidden;
 }
