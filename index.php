@@ -42,7 +42,7 @@
     <div class="block_principal">
 
       <section class="block_contenu">
-        <section class="block action"><a href="action.php"><h2>Action</h2></a></section>
+        <section class="block action"><a href="apps/views/type-manga/action.php"><h2>Action</h2></a></section>
         <section class="block policier"><a href="policier.php"><h2>Policier</h2></a></section>
       </section>
 
