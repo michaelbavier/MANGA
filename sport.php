@@ -21,7 +21,7 @@ include 'request.php';
     <a href="index.php"><p>Home</p></a>
   </div>
   <div class="titre">
-    <h1>Scan Action</h1>
+    <h1>Scan Sport</h1>
   </div>
 
 </header>
@@ -32,15 +32,13 @@ include 'request.php';
 
   <div class="main_full">
 
-    <?php foreach ($action as $pic): ?>
+    <?php foreach ($aventure as $pic): ?>
 
       <section class="integrale">
 
         <section class="titel"><h4><?php echo $pic["titre"];?></h4></section>
 
         <section class="action_img"><img src="<?php echo $pic["image"];?>" alt=""></section>
-
-        <section><img src="<?php echo $pic["scan"];?>" alt=""></section>
 
         <button class="scan" type="button" name="lire">Lire</button>
 

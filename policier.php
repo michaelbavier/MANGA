@@ -21,7 +21,7 @@ include 'request.php';
     <a href="index.php"><p>Home</p></a>
   </div>
   <div class="titre">
-    <h1>Scan Action</h1>
+    <h1>Scan Policier</h1>
   </div>
 
 </header>
@@ -30,7 +30,7 @@ include 'request.php';
                                     INTEGRALE
    ....................................................................... -->
 
-  <div class="main_full">
+  <!-- <div class="main_action">
 
     <?php foreach ($action as $pic): ?>
 
@@ -47,7 +47,7 @@ include 'request.php';
       </section>
 
     <?php endforeach ?>
-  </div>
+  </div> -->
 
 <!-- ............................................................................
                                           FOOTER

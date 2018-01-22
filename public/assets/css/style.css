@@ -4,135 +4,63 @@
 }
 
 body{
-  background-color: #154360;
 }
 
-/*--------------------------------------------------------------------------------
-Nav Bar
-----------------------------------------------------------------------------------*/
-.nav_bar{
+
+/*............................................................................
+                                  MAIN-CONTAINER
+.............................................................................*/
+.main-container{
   height: auto;
   width: 100%;
 }
 
-.main-container {
-  display: relative;
-  width: 100%;height: 100%;
-}
-
-nav {
-  height: 50px;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  background-color: #154360;
-  align-items: center;
-}
-
-nav ul {
-  margin-left: 20px;
-}
-
-nav div {
-  margin-right: 20px;
-
-}
-
-.text{
-  height: 20px;
-  width: 200px;
-  border-radius: 5%;
-  border: black;
-}
-
-.form{
-  width: 900px;
-}
-
-.formulaire{
-  float: right;
-  display:inline-flex;
-}
-
-.formulaire p{
-  margin-top: 3px;
-  color:white;
-  width: 100px;
-  font-family: 'Joti One', cursive;
-}
-
-.nav_bar ul{
-  display: inline-flex;
-  justify-content: space-around;
-  list-style: none;
-}
-
-.nav_bar li{
-  font-size:xx-large; 
-  text-align: center;
-  font-family: 'Joti One', cursive;
-  color:white;
-}
-
-a{
-  text-decoration: none;
-}
-
-.go{
-  font-family: 'Joti One', cursive;
-  width: 50px;
-  height: 20px;
-  background-color:#5d6d7e;
-  border: #1E3279;
-  color: white;
-  cursor: pointer;
-}
-
-#title{
-  margin-bottom: 5px;
-  color:white;
-  background-color:#7fb3d5;
-  text-shadow: 2px 2px 2px black;
-}
-
-#title h1{
-  text-align: center;
-  font-family: 'Joti One', cursive;
-}
-
-#title p{
-  text-align: center;
-  font-family: 'Joti One', cursive;
-  margin-bottom: -5px;
-}
-
 
 /*--------------------------------------------------------------------------------
-Diaporama
+                                          Nav Bar
+----------------------------------------------------------------------------------*/
+header{
+  height: 50px;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  background-color:#154360;
+  color: white;
+}
+
+.home a{
+  text-decoration: none;
+  color: white;
+
+}
+
+.titre{
+  font-family: 'Joti One', cursive;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.home{
+  font-family: 'Joti One', cursive;
+  margin-left: 10px;
+  color: white;
+  font-size: x-large;
+  text-decoration: none;
+
+}
+
+/*--------------------------------------------------------------------------------
+                                              Diaporama
 ---------------------------------------------------------------------------------*/
 
 .diaporama{
-  height: 500px;
+  height: 400px;
   width: 100%;
   margin: 0 auto;
   background-image: url(../../assets/images/imgC/imgBlue.jpg);
   background-repeat: no-repeat;
-  background-image: cover;
   background-size: cover;
   background-position-y: -150px;
-
-
-  -webkit-animation-name: diaporama;
-  -webkit-animation-duration: 15s;
-  -webkit-animation-timing-function:linear;
-  -webkit-animation-iteration-count:infinite;
-  -webkit-animation-direction: normal;
-
-  -moz-animation-name: diaporama;
-  -moz-animation-duration: 15s;
-  -moz-animation-timing-function:linear;
-  -moz-animation-iteration-count:infinite;
-  -moz-animation-direction: normal;
 
   animation-name: diaporama;
   animation-duration: 15s;
@@ -163,16 +91,35 @@ Diaporama
   75%, 80% {background-image: url(../../assets/images/imgC/imgOne.jpg);}
 }
 
+/*------------------------------------------------------------------------------
+                                      DESCRIPTIF
+------------------------------------------------------------------------------*/
+
+.descriptif{
+  height: 70px;
+  width: 100%;
+  text-align: center;
+  background-color:#154360;
+  color: white;
+  font-size: x-large;
+  font-family: 'Joti One', cursive;
+}
+
+
+
 /*-----------------------------------------------------------------------------------
 Block Principal
 -----------------------------------------------------------------------------------------*/
 
 .block_principal{
-  height: auto;
+  height: 500px;
   width: 100%;
   display: flex;
   background-color:#7fb3d5;
-  text-decoration: none;
+}
+
+.block a{
+  outline-style: none;
 }
 
 .block_contenu{
@@ -185,33 +132,25 @@ Block Principal
   text-decoration: none;
 }
 
-.block_contenu  a:visited {
-  color: black;
-}
-
-.block_action a:hover{
-background-color: rgba(123, 123, 200, 0.1);
-}
-
 .block{
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 160px;
+  height: 200px;
   width: auto;
   transition: all .5s ease-in-out;
-  margin: 5px;
+  margin: 20px;
   background-color: black;
   border-radius: 5%;
   cursor: pointer;
 }
 
 .block:hover {
-  background-color: rgba(123, 123, 200, 0.1);
+  background-color: rgba(123, 123, 200, 0.1)!important;
   font-size: 20px;
   color: white;
-  text-decoration: none;
 }
+
 
 
 
@@ -219,56 +158,49 @@ background-color: rgba(123, 123, 200, 0.1);
   text-decoration: none;
   background-image: url(../../assets/images/globe/test.jpg);
   background-repeat: no-repeat;
-  background-image: cover;
   background-size: cover;
 }
+
 
 .romance{
   background-image: url(../../assets/images/globe/romance.jpg);
   background-repeat: no-repeat;
-  background-image: cover;
   background-size: cover;
 }
 
 .aventure{
   background-image: url(../../assets/images/globe/aventure.jpg);
   background-repeat: no-repeat;
-  background-image: cover;
   background-size: cover;
 }
 
 .policier{
   background-image: url(../../assets/images/globe/policier.jpg);
   background-repeat: no-repeat;
-  background-image: cover;
   background-size: cover;
 }
 
 .science-fiction{
   background-image: url(../../assets/images/globe/science.jpg);
   background-repeat: no-repeat;
-  background-image: cover;
   background-size: cover;
 }
 
 .fantastique{
   background-image: url(../../assets/images/globe/fantastique.jpg);
   background-repeat: no-repeat;
-  background-image: cover;
   background-size: cover;
 }
 
 .manga_celebre{
   background-image: url(../../assets/images/globe/celebre.jpg);
   background-repeat: no-repeat;
-  background-image: cover;
   background-size: cover;
 }
 
-.decouverte{
-  background-image: url(../../assets/images/globe/manga.png);
+.sport{
+  background-image: url(../../assets/images/globe/21.jpg);
   background-repeat: no-repeat;
-  background-image: cover;
   background-size: cover;
 }
 
@@ -286,96 +218,91 @@ footer{
 page action
 -------------------------------------------------------------------------------*/
 
-.main_action{
-  position:absolute;
+.main_full{
   height: auto;
   width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
   background-color:#7fb3d5;
 }
 
-.action_titre{
-  text-align: center;
-  font-family: 'Joti One', cursive;
+.main_action h1{
+  height: 3vw;
+  background-color:#7fb3d5;
+  text-shadow: 2px 2px 2px black;
   color: white;
+  text-align: center;
 }
 
-.action_titre h1{
-background-color:#7fb3d5;
-color: white;
-text-shadow: 2px 2px 2px black;
-}
-
-
-.main_action img{
-  height: 300px;
-  width: 200px;
-}
-
-.titre{
-  margin-top: 25px;
-  height: 35px;
+.titel{
+  margin-top: 1vw;
+  height: 2vw;
+  width: 100;
   background-color: #154360;
-  border: 1px #5d6d7e solid;
+  border:#5d6d7e;
   font-family: 'Joti One', cursive;
-  font-size: x-large;
+  font-size: 1vw;
   text-align: center;
   color: white;
   border-radius: 25%;
-  margin-bottom: 20px;
+  margin-bottom: 1vw;
 }
 
-.description{
-height: 120px;
+h4{
+width: 20vw;
+height: 20vw;
 text-align: center;
-font-family: 'Joti One', cursive;
-display: table;
-background-color: white;
-border: 1px #3a3da3 science-fiction;
 }
 
 .action_img{
-height: 300px;
-width: 200px;
-margin-bottom: 15px;
+height: 16vw;
+width: 10vw;
+margin-bottom: 3vw;
 margin-left: auto;
 margin-right: auto;
 border: 1px #154360 solid;
-
 }
 
+.action_img img{
+  height: 17vw;
+  width: 10vw;
+}
+
+
 .integrale{
-width: 421px;
-height: 500px;
-display:inline-block;
-margin-left: auto;
-margin-right: auto;
-margin: 20px;
+width: 20vw;
+height: 25vw;
+margin: 44px;
+text-align: center;
 background-color:#5d6d7e;
 border-radius: 10%;
-margin-top: 15px;
 overflow: hidden;
 border: 1px #154360 solid;
 }
 
 
-#scan{
+.scan{
   width: 80px;
-  margin-left: auto;
-  margin-right: auto;
-}
+  height: 30px;
 
-.lire{
-  width: 80px;
-  font-family: 'Joti One', cursive;
   background-color: #154360;
-  border:#154360;
+  border: #154360;
   color: white;
 }
 
-#centrage{
-  position: relative;
-  width: 98%;
-  margin-right: 15px;
-  margin-left: 15px;
-  border: 1px yellow solid;
+
+
+
+/*//////////////////////////////////////////////////////////////////////
+
+                      /*TABLETTE*/
+
+/*/////////////////////////////////////////////////////////////////////*/
+
+@media screen and (max-width: 1400px) {
+  .integrale {
+    width: 200px;
+  }
+
 }

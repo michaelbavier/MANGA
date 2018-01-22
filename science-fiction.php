@@ -30,7 +30,7 @@ include 'request.php';
                                     INTEGRALE
    ....................................................................... -->
 
-  <div class="main_full">
+  <!-- <div class="main_action">
 
     <?php foreach ($action as $pic): ?>
 
@@ -47,7 +47,7 @@ include 'request.php';
       </section>
 
     <?php endforeach ?>
-  </div>
+  </div> -->
 
 <!-- ............................................................................
                                           FOOTER
