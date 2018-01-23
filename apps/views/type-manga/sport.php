@@ -1,12 +1,12 @@
 <?php
-include 'request.php';
+include '../../../apps/views/parts/request.php';
 ?>
 
 <!DOCTYPE html>
 <html>
 <head>
   <meta charset="utf-8">
-  <link rel="stylesheet" href="./public/assets/css/style.css">
+  <link rel="stylesheet" href="../../../public/assets/css/style.css">
   <link href="https://fonts.googleapis.com/css?family=Joti+One" rel="stylesheet">
   <title>Page Action</title>
 </head>
@@ -18,7 +18,7 @@ include 'request.php';
 
 <header>
   <div class="home">
-    <a href="index.php"><p>Home</p></a>
+    <a href="../../../index.php"><p>Home</p></a>
   </div>
   <div class="titre">
     <h1>Scan Sport</h1>
@@ -30,7 +30,7 @@ include 'request.php';
                                     INTEGRALE
    ....................................................................... -->
 
-  <div class="main_full">
+  <!-- <div class="main_full">
 
     <?php foreach ($aventure as $pic): ?>
 
@@ -44,7 +44,7 @@ include 'request.php';
 
       </section>
 
-    <?php endforeach ?>
+    <?php endforeach ?> -->
   </div>
 
 <!-- ............................................................................

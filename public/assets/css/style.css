@@ -4,6 +4,9 @@
 }
 
 body{
+  background-image: url(../../assets/images/logo/metallic-wallpaper4.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 
@@ -24,7 +27,6 @@ header{
   width: 100%;
   align-items: center;
   display: flex;
-  background-color:#154360;
   color: white;
 }
 
@@ -57,7 +59,7 @@ header{
   height: 400px;
   width: 100%;
   margin: 0 auto;
-  background-image: url(../../assets/images/imgC/imgBlue.jpg);
+  background-image: url(../../assets/images/imgC/demon.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position-y: -150px;
@@ -70,25 +72,25 @@ header{
 }
 
 @-webkit-keyframes diaporama{
-  0%, 5% {background-image: url(../../assets/images/imgC/imgBlue.jpg);}
-  25%, 30% {background-image: url(../../assets/images/imgC/imgKill.png);}
+  0%, 5% {background-image: url(../../assets/images/imgC/demon.png);}
+  25%, 30% {background-image: url(../../assets/images/imgC/death.jpg);}
   50%, 55% {background-image: url(../../assets/images/imgC/imgCentral.jpg);}
-  75%, 80% {background-image: url(../../assets/images/imgC/imgOne.jpg);}
+  75%, 80% {background-image: url(../../assets/images/imgC/myhero.jpg);}
 
 }
 
 @-moz-keyframes diaporama{
-  0%, 5% {background-image: url(../../assets/images/imgC/imgBlue.jpg);}
-  25%, 30% {background-image: url(../../assets/images/imgC/imgKill.png);}
+  0%, 5% {background-image: url(../../assets/images/imgC/demon.png);}
+  25%, 30% {background-image: url(../../assets/images/imgC/death.jpg);}
   50%, 55% {background-image: url(../../assets/images/imgC/imgCentral.jpg);}
-  75%, 80% {background-image: url(../../assets/images/imgC/imgOne.jpg);}
+  75%, 80% {background-image: url(../../assets/images/imgC/myhero.jpg);}
 }
 
 @keyframes diaporama{
-  0%, 5% {background-image: url(../../assets/images/imgC/imgBlue.jpg);}
-  25%, 30% {background-image: url(../../assets/images/imgC/imgKill.png);}
+  0%, 5% {background-image: url(../../assets/images/imgC/demon.png);}
+  25%, 30% {background-image: url(../../assets/images/imgC/death.jpg);}
   50%, 55% {background-image: url(../../assets/images/imgC/imgCentral.jpg);}
-  75%, 80% {background-image: url(../../assets/images/imgC/imgOne.jpg);}
+  75%, 80% {background-image: url(../../assets/images/imgC/myhero.jpg);}
 }
 
 /*------------------------------------------------------------------------------
@@ -99,7 +101,6 @@ header{
   height: 70px;
   width: 100%;
   text-align: center;
-  background-color:#154360;
   color: white;
   font-size: x-large;
   font-family: 'Joti One', cursive;
@@ -115,7 +116,6 @@ Block Principal
   height: 500px;
   width: 100%;
   display: flex;
-  background-color:#7fb3d5;
 }
 
 .block a{
@@ -210,7 +210,6 @@ Footer
 
 footer{
   height: 25px;
-  background-color:#154360;
 }
 
 
@@ -224,7 +223,6 @@ page action
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
-  background-color:#7fb3d5;
 }
 
 .main_action h1{
@@ -239,7 +237,7 @@ page action
   margin-top: 1vw;
   height: 2vw;
   width: 100;
-  background-color: #154360;
+  background-color: #12171A;
   border:#5d6d7e;
   font-family: 'Joti One', cursive;
   font-size: 1vw;
@@ -275,7 +273,8 @@ width: 20vw;
 height: 25vw;
 margin: 44px;
 text-align: center;
-background-color:#5d6d7e;
+background-color: #2C2E3D;
+opacity: 0.7;
 border-radius: 10%;
 overflow: hidden;
 border: 1px #154360 solid;
@@ -285,8 +284,7 @@ border: 1px #154360 solid;
 .scan{
   width: 80px;
   height: 30px;
-
-  background-color: #154360;
+  background-color: #12171A;
   border: #154360;
   color: white;
 }

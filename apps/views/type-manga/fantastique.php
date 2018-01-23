@@ -1,12 +1,12 @@
 <?php
-include 'request.php';
+include '../../../apps/views/parts/request.php';
 ?>
 
 <!DOCTYPE html>
 <html>
 <head>
   <meta charset="utf-8">
-  <link rel="stylesheet" href="./public/assets/css/style.css">
+  <link rel="stylesheet" href="../../../public/assets/css/style.css">
   <link href="https://fonts.googleapis.com/css?family=Joti+One" rel="stylesheet">
   <title>Page Action</title>
 </head>
@@ -18,7 +18,7 @@ include 'request.php';
 
 <header>
   <div class="home">
-    <a href="index.php"><p>Home</p></a>
+    <a href="../../../index.php"><p>Home</p></a>
   </div>
   <div class="titre">
     <h1>Scan Fantastique</h1>

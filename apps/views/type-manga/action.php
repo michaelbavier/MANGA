@@ -18,7 +18,7 @@ include '../../../apps/views/parts/request.php';
 
 <header>
   <div class="home">
-    <a href="index.php"><p>Home</p></a>
+    <a href="../../../index.php"><p>Home</p></a>
   </div>
   <div class="titre">
     <h1>Scan Action</h1>
