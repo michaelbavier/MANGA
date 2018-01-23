@@ -16,15 +16,10 @@ include '../../../apps/views/parts/request.php';
                                    HEADER
 ................................................................................ -->
 
-<header>
-  <div class="home">
-    <a href="../../../index.php"><p>Home</p></a>
-  </div>
-  <div class="titre">
-    <h1>Scan Manga Celebre</h1>
-  </div>
-
-</header>
+    <header>
+        <a href="../../../index.php"><p>Home</p></a>  
+        <h1>Manga Celebre</h1>    
+    </header>
 
   <!--.........................................................................
                                     INTEGRALE
