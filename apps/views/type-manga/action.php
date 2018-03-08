@@ -17,8 +17,8 @@ include '../../../apps/views/parts/request.php';
 ................................................................................ -->
 
     <header>
-        <a href="../../../index.php"><p>Home</p></a>  
-        <h1>Action</h1>    
+        <a href="../../../index.php"><p>Home</p></a>
+        <h1>Action</h1>
     </header>
   <!--.........................................................................
                                     INTEGRALE
@@ -26,23 +26,32 @@ include '../../../apps/views/parts/request.php';
 
   <div class="main_full">
 
-    <?php foreach ($action as $pic): ?>
+<?php
+require_once 'database.php';
 
-      <section class="integrale">
+ ?>      <section class="integrale">
 
-        <section class="titel"><h4><?php echo $pic["titre"];?></h4></section>
+        <section class="titel"><h4></h4></section>
 
-        <section class="action_img"><img src="<?php echo $pic["image"];?>" alt=""></section>
+        <section class="action_img"><img src="" alt=""></section>
 
-        <section><img src="<?php echo $pic["scan"];?>" alt=""></section>
+        <section><img src="" alt=""></section>
 
         <button class="scan" type="button" name="lire">Lire</button>
 
       </section>
 
-    <?php endforeach ?>
   </div>
+<?php
+    $req = $db->query('SELECT * FROM genre');
 
+    $genre = $req-> fetch();
+
+    var_dump($genre);
+
+
+
+ ?>
 <!-- ............................................................................
                                           FOOTER
 ............................................................................. -->

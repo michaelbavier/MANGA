@@ -13,8 +13,13 @@
     Header
     ............................................................................-->
     <header>
-        <a href="index.php"><p>Home</p></a>  
-        <h1>Manga</h1>    
+        <a href="index.php"><p>Home</p></a>
+        <h1>Manga</h1>
+        <div class="connexion">
+      <span>Pseudo:</span><input class="login" type="text" name="" value="">
+      <span>Mots de passe:</span><input class="login" type="text" name="" value="">
+      <button class="button" type="submit" name="button">Envoyer</button>
+        </div>
     </header>
 
 
@@ -44,17 +49,17 @@
 
       <section class="block_contenu">
         <section class="block aventure"><a href="apps/views/type-manga/aventure.php?categorie=aventure"><h2>Aventure</h2></a></section>
-        <section class="block science-fiction"><a href="apps/views/type-manga/science-fiction.php"><h2>Fantastique</h2></a></section>
+        <section class="block science-fiction"><a href="apps/views/type-manga/science-fiction.php?categorie=sicenceFiction"><h2>Science-Fiction</h2></a></section>
       </section>
 
       <section class="block_contenu">
-        <section class="block romance"><a href="apps/views/type-manga/romance.php"><h2>Romance</h2></a></section>
-        <section class="block fantastique"><a href="apps/views/type-manga/fantastique.php"><h2>Fantastique</h2></a></section>
+        <section class="block romance"><a href="apps/views/type-manga/romance.php?categorie=romance"><h2>Romance</h2></a></section>
+        <section class="block fantastique"><a href="apps/views/type-manga/fantastique.php?categorie=fantastique"><h2>Fantastique</h2></a></section>
       </section>
 
       <section class="block_contenu">
-        <section class="block sport"><a href="apps/views/type-manga/sport.php"><h2>Sport</h2></a></section>
-        <section class="block manga_celebre"><a href="apps/views/type-manga/manga-celebre.php">Manga Celebre<h2></h2></a></section>
+        <section class="block sport"><a href="apps/views/type-manga/sport.php?categorie=sport"><h2>Sport</h2></a></section>
+        <section class="block manga_celebre"><a href="apps/views/type-manga/manga-celebre.php?categorie=mangaCelebre">Manga Celebre<h2></h2></a></section>
       </section>
 
     </div>
@@ -65,5 +70,6 @@
     <footer></footer>
 
   </div>
+
 </body>
 </html>

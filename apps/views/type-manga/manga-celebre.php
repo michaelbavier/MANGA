@@ -17,8 +17,8 @@ include '../../../apps/views/parts/request.php';
 ................................................................................ -->
 
     <header>
-        <a href="../../../index.php"><p>Home</p></a>  
-        <h1>Manga Celebre</h1>    
+        <a href="../../../index.php"><p>Home</p></a>
+        <h1>Manga Celebre</h1>
     </header>
 
   <!--.........................................................................
@@ -48,7 +48,7 @@ include '../../../apps/views/parts/request.php';
                                           FOOTER
 ............................................................................. -->
 
-<footer></footer>
+<!-- <footer></footer> -->
 
 </body>
 </html>

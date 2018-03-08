@@ -16,8 +16,8 @@ include '../../../apps/views/parts/request.php';
                                    HEADER
 ................................................................................ -->
     <header>
-        <a href="../../../index.php"><p>Home</p></a>  
-        <h1>Aventure</h1>    
+        <a href="../../../index.php"><p>Home</p></a>
+        <h1>Aventure</h1>
     </header>
   <!--.........................................................................
                                     INTEGRALE
@@ -46,7 +46,7 @@ include '../../../apps/views/parts/request.php';
                                           FOOTER
 ............................................................................. -->
 
-<footer></footer>
+<!-- <footer></footer> -->
 
 </body>
 </html>
